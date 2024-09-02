@@ -1,0 +1,398 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: "Montserrat", sans-serif; */
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.right-content {
+    display: flex;
+    gap: 20px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+#anchor {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: black;
+}
+
+#anchor:hover {
+    color: #fd5825;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fd5825;
+    font-weight: 800;
+}
+
+#option {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#option:hover {
+    color: #fd5825;
+}
+
+.btn button {
+    font-size: 16px;
+    padding: 6px 12px;
+    background-color: #fd5825;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+
+.head {
+    padding-bottom: 120px;
+}
+
+.heading {
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.para {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn1 button {
+    width: 200px;
+    padding: 14px 16px;
+    background-color: #fd5825;
+    color: rgb(234, 226, 226);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-card {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+
+}
+
+.card {
+    width: 400px;
+    height: 300px;
+    background-color: #fe5825;
+    border-radius: 8px;
+    margin: 15px;
+    transition: all 0.3s;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card1 {
+    width: 400px;
+    height: 300px;
+    background-color: #f3a71d;
+    border-radius: 8px;
+    margin: 15px;
+    transition: all 0.3s;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+}
+
+.card2 {
+    width: 400px;
+    height: 300px;
+    background-color: #999a1c;
+    border-radius: 8px;
+    margin: 15px;
+    transition: all 0.3s;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.heading1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.paragraph {
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(214, 209, 209);
+}
+
+.btn2 button {
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 38px;
+    background-color: white;
+    color: black;
+}
+
+.btn3 button {
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 38px;
+    background-color: white;
+    color: black;
+   
+}
+
+.btn4 button {
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 38px;
+    background-color: white;
+    color: black;
+   
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 300px;
+}
+
+.scroll1 img {
+    width: 150px;
+    height: 400px;
+    margin: 30px;
+    animation-name: naveen;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+    animation-direction: reverse;
+    margin-bottom: 150px;
+}
+
+
+@keyframes naveen {
+    from {
+        transform: translate(-1550px);
+    }
+
+    to {
+        transform: translate(1050px);
+    }
+}
+
+.bar {
+    width: 100%;
+    background-color: #fd5825;
+}
+
+.number {
+    height: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.number h4 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.number p {
+    color: white;
+    font-weight: 600;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    left: 100px;
+}
+
+.new1 {
+    width: 90%;
+    margin-left: 80px;
+    border: 0.5px solid #6c757D;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: 250px;
+
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: gray;
+}
+
+.links {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 100px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link h4 {
+    font-weight: 800;
+    color: #6c757D;
+    padding-bottom: 20px;
+}
+
+.h6 {
+    color: #6c757D;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.link h5 {
+    color: #6c757D;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.link p {
+    color: #6c757D;
+    line-height: 28px;
+}
+
+.hyper-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hyper-link a {
+    color: #6c757D;
+    font-size: 18px;
+}
+
+.hyper-link a {
+    cursor: text;
+}
+
+.hyper-link h4 {
+    color: #6c757D;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact p {
+    color: #6c757D;
+    line-height: 28px;
+}
+
+.contact a {
+    color: #6c757D;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.contact h4 {
+    color: #6c757D;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.phone i {
+    margin-right: 8px;
+}
+
+.phone {
+    margin-top: 10px;
+}
+
+footer {
+    padding: 24PX;
+    background-color: #0000000D;
+}
+
+.copy {
+    font-size: 18px;
+    color: #6c757D;
+    text-align: center;
+}
+
+.copy a {
+    color: #6c757D;
+    font-weight: bold;
+}
